@@ -16,8 +16,26 @@ h2 {
   font-size: 2rem;
 }
 
-table, th, td {
-  padding: 1rem;
+#werdegang {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#werdegang td, #werdegang th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#werdegang tr:nth-child(even){background-color: #f2f2f2;}
+
+#werdegang tr:hover {background-color: #ddd;}
+
+#werdegang th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(65, 63, 63);
+  color: white;
 }
 
 a:link {
@@ -38,7 +56,7 @@ a:link {
  
  /**********class zuweisungen**********/ 
   .abschnitt1 {
-    padding-top: 3rem;
+    padding-top: 6rem;
     padding-bottom: 10rem;
   }
   .abschnitt2 {
@@ -58,11 +76,14 @@ a:link {
     height: auto;
     border-radius: 50%;
   }
-.footerbar {
+  .footerbar {
+      background-color: rgb(255, 255, 255, 0.4);
+  }
+.footerelement {
   display: inline-block;
-  padding-right: 2em;
+  padding: 0.5em;
   list-style: none;
-  float: right;
+  text-align: center;
 }
   .header {
     height: 3rem;
@@ -73,7 +94,7 @@ a:link {
     width: fit-content;
     margin: 0 auto;
     border: rgb(65, 63, 63) 8px solid;
-    padding: 3rem;
+    padding: 6rem;
   }
 
   .impressum {
@@ -93,10 +114,6 @@ a:link {
     float: right;
     padding-right: 6em;
     
-  }
-
-  .tabelle {
-    vertical-align: middle;
   }
 
   .portfolio {
