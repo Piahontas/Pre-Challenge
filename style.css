@@ -58,7 +58,12 @@ a:link {
     height: auto;
     border-radius: 50%;
   }
-
+.footerbar {
+  display: inline-block;
+  padding-right: 2em;
+  list-style: none;
+  float: right;
+}
   .header {
     height: 3rem;
   }
@@ -69,6 +74,15 @@ a:link {
     margin: 0 auto;
     border: rgb(65, 63, 63) 8px solid;
     padding: 3rem;
+  }
+
+  .impressum {
+    background-color: white;
+    padding: 3rem;
+  }
+
+  .klein {
+    font-size: 10px;
   }
 .navelement {
   display: inline-block;
