@@ -70,7 +70,7 @@ a:link {
     padding: 6rem;
   }
   .abschnitt3 {
-    padding: 6rem;
+    padding: 6eem;
   }
   
   .abschnitt4 {
@@ -78,7 +78,7 @@ a:link {
     padding: 6rem;
   }
   .abstandindex {
-    height: 100px;
+    height: 50px;
   }
 
   .bild {
@@ -98,9 +98,7 @@ a:link {
   list-style: none;
   text-align: center;
 }
-.fuchs {
-  width: 300px;
-}
+
   .header {
     height: 3rem;
   }
@@ -129,7 +127,7 @@ a:link {
   .navigation {
     float: right;
     padding-right: 6em;
-    
+    position: fixed;    
   }
 
   .portfolio {
