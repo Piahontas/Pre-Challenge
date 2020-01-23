@@ -9,8 +9,9 @@ body {
   margin: 0px;
 }
 h1 {
-  font-size: 6rem;
+  font-size: 4rem;
   font-family: 'Sue Ellen Francisco', cursive;
+  padding-top: 1em;
 }
 h2 {
   font-size: 2rem;
@@ -57,7 +58,7 @@ a:active {
 /**********class zuweisungen**********/
 .abschnitt1 {
   padding-top: 2rem;
-  padding-bottom: 10rem;
+  padding-bottom: 12rem;
 }
 .abschnitt2 {
   background-color: white;
