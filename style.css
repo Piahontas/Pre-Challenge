@@ -1,41 +1,38 @@
 body {
-    background-color: lightgrey;
-    background-image: url(images/Leuchtturm.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    color: rgb(65, 63, 63);
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    
+  background-color: lightgrey;
+  background-image: url(images/Leuchtturm.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(65, 63, 63);
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin: 0px;
 }
 h1 {
-    font-size: 6rem;
-    font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 6rem;
+  font-family: 'Sue Ellen Francisco', cursive;
 }
 h2 {
   font-size: 2rem;
 }
-
 q {
   font-size: 2em;
   font-family: 'Sue Ellen Francisco', cursive;
 }
-
-
 #werdegang {
   border-collapse: collapse;
   width: 100%;
 }
-
 #werdegang td, #werdegang th {
   border: 1px solid #ddd;
   padding: 8px;
 }
-
-#werdegang tr:nth-child(even){background-color: #f2f2f2;}
-
-#werdegang tr:hover {background-color: #ddd;}
-
+#werdegang tr:nth-child(even){
+ background-color: #f2f2f2;
+}
+#werdegang tr:hover {
+ background-color: #ddd;
+}
 #werdegang th {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -43,103 +40,90 @@ q {
   background-color: rgb(65, 63, 63);
   color: white;
 }
-
 a:link {
-    color: rgb(65, 63, 63);
-    text-decoration: none;
-  }
-  a:visited {
-    color: rgb(65, 63, 63);
-  }
-  a:hover {
-    color: rgb(22, 29, 22);
-    text-decoration: underline;
-    
-  }
-  a:active {
-    color: rgb(36, 18, 18);
-  }
- 
- /**********class zuweisungen**********/ 
-  .abschnitt1 {
-    padding-top: 2rem;
-    padding-bottom: 10rem;
-  }
-  .abschnitt2 {
-    background-color: white;
-    padding: 6rem;
-  }
-  .abschnitt3 {
-    padding: 6eem;
-  }
-  
-  .abschnitt4 {
-    background-color: white;
-    padding: 6rem;
-  }
-  .abstandindex {
-    height: 50px;
-  }
-
-  .bild {
-    width: auto;
-    height: auto;
-    border-radius: 50%;
-  }
-  .footer {
-    text-align: center;
-  }
-  .footerbar {
-      background-color: rgb(255, 255, 255, 0.4);
-  }
+  color: rgb(65, 63, 63);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(65, 63, 63);
+}
+a:hover {
+  color: rgb(22, 29, 22);
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(36, 18, 18);
+}
+/**********class zuweisungen**********/
+.abschnitt1 {
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+}
+.abschnitt2 {
+  background-color: white;
+  padding: 6rem;
+}
+.abschnitt3 {
+  padding: 6em;
+}
+.abschnitt4 {
+  background-color: white;
+  padding: 6rem;
+}
+.abstandindex {
+  height: 50px;
+}
+.bild {
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+}
+.footer {
+  text-align: center;
+}
+.footerbar {
+  background-color: rgb(255, 255, 255, 0.4);
+}
 .footerelement {
   display: inline-block;
   padding: 0.5em;
   list-style: none;
   text-align: center;
 }
-
-  .header {
-    height: 3rem;
-    position: fixed;
-    width: 100%;
-    background-color: rgb(255, 255, 255, 0.4);
-    box-shadow: 10px 10px 15px rgb(82, 81, 81);
-    padding-right: 2em;
-    display: block;
-  }
-  
-  .heading {
-    text-align: center;
-    width: fit-content;
-    margin: 0 auto;
-    border: rgb(65, 63, 63) 8px solid;
-    padding: 6rem;
-  }
-
-  .impressum {
-    background-color: white;
-    padding: 3rem;
-  }
-
-  .klein {
-    font-size: 10px;
-  }
+.header {
+  height: 3rem;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(255, 255, 255, 0.4);
+  box-shadow: 5px 5px 10px rgb(82, 81, 81);
+  display: block;
+}
+.heading {
+  text-align: center;
+  width: fit-content;
+  margin: 6em auto;
+  border: rgb(65, 63, 63) 8px solid;
+  padding: 6rem;
+}
+.impressum {
+  background-color: white;
+  padding: 3rem;
+}
+.klein {
+  font-size: 10px;
+}
 .navelement {
   display: inline-block;
   list-style: none;
-  padding-right: 6em;
+  padding-right: 2em;
 }
-  .navigation {
-    float: right; 
-
-  }
-
-  .portfolio {
-    border: solid white 3px;
-    width: 250px;
-  }
- 
-  .uebermich {
-    text-align: center;
-  }
+.navigation {
+  float: right;
+}
+.portfolio {
+  border: solid white 3px;
+  width: 250px;
+}
+.uebermich {
+  text-align: center;
+}
