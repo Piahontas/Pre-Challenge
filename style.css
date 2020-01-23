@@ -9,16 +9,11 @@ body {
   margin: 0px;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 5em;
   font-family: 'Sue Ellen Francisco', cursive;
-  padding-top: 1em;
 }
 h2 {
   font-size: 2rem;
-}
-q {
-  font-size: 2em;
-  font-family: 'Sue Ellen Francisco', cursive;
 }
 #werdegang {
   border-collapse: collapse;
@@ -57,19 +52,20 @@ a:active {
 }
 /**********class zuweisungen**********/
 .abschnitt1 {
-  padding-top: 2rem;
-  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 10rem;
 }
 .abschnitt2 {
   background-color: white;
-  padding: 6rem;
+  padding: 8rem;
 }
 .abschnitt3 {
-  padding: 6em;
+  padding-top: 10em;
+  padding-bottom: 10em;
 }
 .abschnitt4 {
   background-color: white;
-  padding: 6rem;
+  padding: 8rem;
 }
 .abstandindex {
   height: 50px;
