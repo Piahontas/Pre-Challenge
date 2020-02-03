@@ -75,6 +75,10 @@ a:active {
   height: auto;
   border-radius: 50%;
 }
+.container {
+  display: flex;
+  justify-content: center;
+}
 .footer {
   text-align: center;
 }
@@ -120,6 +124,13 @@ a:active {
 .portfolio {
   border: solid white 3px;
   width: 250px;
+}
+.portfolio img {
+  display: block;
+}
+.relativ {
+  position: relative;
+  top: 40px;
 }
 .uebermich {
   text-align: center;
